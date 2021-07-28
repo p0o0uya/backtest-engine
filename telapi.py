@@ -5,7 +5,7 @@ import requests
 ######################### CLASS #########################
 class telapi():
 
-    TOKEN        = '1817221904:AAEB29r2hfrtSMRoLMrfgs0rv6ld0Fe7eFc'
+    TOKEN        = 'TOKEN HERE'
     URL          = 'https://api.telegram.org/bot{}/'.format(TOKEN)     # Telegram bot API url + TOKEN
     BOT_USERNAME = 'xenon_trader_bot'
     def __init__(self):
